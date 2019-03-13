@@ -1,0 +1,17 @@
+{
+	"name": "webchemistry/html-purifier",
+	"description": "Html purifier",
+	"require": {
+		"php": ">= 7.2",
+		"ext-dom": "*",
+		"ext-libxml": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"WebChemistry\\Purifier\\": ["src/"]
+		}
+	},
+	"require-dev": {
+		"codeception/codeception": "^2.5"
+	}
+}
